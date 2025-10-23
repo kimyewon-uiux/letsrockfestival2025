@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT :: Let's Rock Festival</title>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/contactDetail.css">
+</head>
+<body>
+<div class="wrap" id="contact">
+<!-- header -->
+<header class="header2">
+    <h1><a href="/html/main.html"><span class="blind">렛츠락페스티벌</span></a></h1>
+    <nav class="gnb">
+        <ul>
+            <li><a href="/html/ticket.html">Ticket</a></li>
+            <li><a href="/html/lineup.html">Line Up</a></li>
+            <li><a href="/html/map.html">Map</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- contents -->
+<div class="container">
+    <div class="form-bg">
+        <div class="title">
+            <h3>Contact <br>Us</h3>
+            <p>
+                아래 양식을 작성해 제출해주시면 담당자가 확인 후 연락드리겠습니다. <br>
+                신청 내용은 확인 후, 개별 연락을 드립니다.
+            </p>
+        </div>
+        <div class="contact-form">
+            <div class="category">
+              <label><input type="radio" name="category" value="fnb">F&B</label> 
+              <label><input type="radio" name="category" value="brand">Brand Popup</label> 
+              <label><input type="radio" name="category" value="sponsor">Sponsor</label> 
+              <label><input type="radio" name="category" value="etc">Etc</label> 
+            </div>
+            <div class="inputlist inputList01">
+              <input type="text" name="" id="" placeholder="회사/브랜드 명"> 
+              <input type="text" name="" id="" placeholder="담당자 명"> 
+              <div class="email-wrap">
+                <input type="text" name="" id="" placeholder="Email"><span>@</span>
+                <select id="emailDomain" onchange="toggleCustomDomain(this)">
+                    <option value="google">gmail.com</option>
+                    <option value="naver">naver.com</option>
+                    <option value="daum">hanmail.net</option>
+                    <option value="custom">직접입력</option> 
+                </select>  
+                  <input type="text" id="customDomain" placeholder="example.com" style="display:none;">
+              </div>
+              <input type="text" name="" id="" placeholder="담당자 연락처('-'없이 입력)"> 
+            </div>
+            <div class="inputlist inputList02">
+              <textarea placeholder="신청 내용을 입력해 주세요"></textarea> 
+            </div>
+            <div class="inputlist inputList03">
+                <textarea placeholder="기타 문의사항이 있으시면 입력해 주세요"></textarea>
+
+            </div>
+            <div class="btn-wrap">
+                <button type="submit">전송하기</button>
+            </div>
+          </div>
+    </div class="form-bg">
+</div>
+<!-- footer -->
+<footer>
+    <div class="container2">
+        <div class="footer-top">
+            <div class="f-t-left">
+                <div class="f-t-lt">
+                    <h1><a href="#"><span class="blind">렛츠락페스티벌</span></a></h1>
+                    <ul class="f-terms">
+                        <li><a href="">개인정보처리방침</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">공지사항</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="f-t-sns">
+                <a href="https://www.instagram.com/letsrockfe/" target="_blank"><span class="blind">인스타</span></a>
+                <a href="https://www.youtube.com/@letsrockfe" target="_blank"><span class="blind">유투브</span></a>
+                <a href="https://www.facebook.com/letsrockfe/" target="_blank"><span class="blind">페이스북</span></a>
+                <a href="https://blog.naver.com/letsrockfest" target="_blank"><span class="blind">블로그</span></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="f-b-t">
+                <p>
+                    주최·주관 : 주식회사 놀유니버스 / (주) 록스타뮤직앤라이브 <br>
+                    고객센터 : TEL 070-000-0000ㅣ FAX (02)000-0000ㅣ Email  : letsrock@gmail.com
+                </p>
+            </div>
+            <ul class="f-sponsor">
+                <li><span class="blind">놀유니버스</span></li>
+                <li><span class="blind">록스타뮤직앤라이브</span></li>
+                <li><span class="blind">충남음악창작소</span></li>
+            </ul>
+            <div class="copyright">
+                <p>Copyright 2007 - 2025 LETSROCK FESTIVAL   |   All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script>
+    function toggleCustomDomain(select) {
+      const customInput = document.getElementById("customDomain");
+      if (select.value === "custom") {
+        customInput.style.display = "inline-block"; // 직접입력칸 표시
+        customInput.focus();
+      } else {
+        customInput.style.display = "none"; // 숨김
+      }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+
+body{
+    background: #FFD24A;
+}
+header{
+    background: #ffd24adc;
+}
+.container .ticketNotice li{
+    list-style: circle;
+    font-family: suit;
+}
+.container {
+    padding-top: 10rem;
+}
+.strong{
+    font-weight: 800;
+}
+/* section1 */
+
+.ticketPrice{
+    display: flex; flex-direction: column; gap: 4rem; align-items: center;
+    margin-bottom: 15rem;
+}
+.ticketPrice .title{
+    font-family: 'climate'; font-size: 7rem;
+}
+.ticketObj{
+    padding: 0 20rem; width: 100%;
+    display: flex; justify-content: space-between;
+}
+
+@media screen and (max-width:1700px) {.ticketObj{padding: 0 10rem;}}
+@media screen and (max-width:1510px) {.ticketObj{padding: 0 5rem;}}
+@media screen and (max-width:1320px) {.ticketObj{padding: 0;}}
+
+.ticketObj li{
+    width: 30%; aspect-ratio: 440/644;
+    padding: 4rem 3rem 5rem 3rem; display: flex; flex-direction: column; justify-content: space-between;
+    background: url(/img/ticket_bg.png) 0 0 / contain no-repeat;
+}
+.card1 .cardDate div{ background: #FFC70F;}
+.card2 .cardDate div{ background: #65DF77;}
+.colorpoint{display: inline;}
+.card1 .colorpoint{color: #FFC70F;}
+.card2 .colorpoint{color: #65DF77;}
+
+
+.ticketObj li .top{display: flex; flex-direction: column; gap: 1rem;}
+.cardName{ font-family: suit;font-size: 1.8rem; color: #888; margin-top: 2rem;}
+.cardTitle{font-family: 'climate'; font-size: 4.4rem;}
+.cardDate{display: flex;gap: .5rem;}
+.cardDate div{font-size: 1.8rem; border: 1px solid #222; border-radius: 3rem; padding: .5rem 1rem;}
+
+
+.mid{margin-top: 4rem; text-align: right; font-size: 3.2rem;}
+.mid .colorpoint{font-size: 5rem;font-weight: 800;margin-right: 1rem;}
+.bttm{position: relative;margin-top: 1rem;}
+.bttm .line::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: .5px; border: .5px solid #666; border-style: dashed;
+}
+
+.bttm .barcode{
+    margin-top: 1rem;
+    width: 100%; aspect-ratio: 3/1;
+    background: url(/img/barcode.png) 0 0 / contain no-repeat;
+}
+
+.ticketPrice .ticketLink{
+    margin-top: 5rem;
+    border: 1px solid #222; font-size: 1.8rem;
+    padding: 2rem 6rem; background: #ff7b00;
+}
+.ticketPrice .ticketLink:hover{
+    background: #ff6600;
+    transform: translateX(-2px) translateY(-2px);
+    box-shadow: 3px 3px 0px #222;
+
+}
+
+
+
+
+/* section2 */
+.ticketNotice{
+    margin-bottom: 10rem;
+}
+label{
+    font-family: 'climate'; 
+    color: #111;
+}
+
+/* 아코디언 전체 */
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+  
+  /* 각 항목 */
+  .accordion-item {
+    border-top: 1px solid #222;
+  }
+  
+  /* 마지막 항목 구분선 */
+  .accordion-item:last-child {
+    border-bottom: 2px solid #222;
+  }
+  
+  /* 헤더 */
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    font-size: 4rem;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .accordion-header:hover .arrow{color: #111;}
+  .accordion-header:hover{
+    color: #ff6600;
+  }
+  
+  /* 화살표 */
+  .arrow {
+    width: 4rem; aspect-ratio: 1/1;
+    font-size: 2.8rem;
+    transition: transform 0.3s;
+    border: 1px solid #222; border-radius: 5rem;
+    background: #ff6600;
+  }
+  .arrow::after{
+    height: 100%;
+    content: '\EA70'; font-family: 'remixicon'; display: flex;
+    align-items: center;justify-content: center;
+  }
+  
+  /* 내용 */
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #fff3da7c;
+    border-radius: 12px;
+    margin: 0 10px 20px 10px;
+    padding: 0 25px;
+    transition: max-height 0.4s ease;
+  }
+  
+  .accordion-content ul {
+    padding: 15px 20px;
+    list-style: disc;
+  }
+  
+  .accordion-content li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .accordion-content p{line-height: 1.2;}
+  .accordion-content .title{
+    font-weight: 800;
+  }
+  .accordion-content1 li:nth-child(3){list-style: none;}
+  .accordion-content1 li:nth-child(6){list-style: none;}
+  .accordion-content1 li:nth-child(7){list-style: none;}
+  .noticePoint{color: #ff3300; line-height: 1.2;}
+
+  .noticebox{
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background: #ffffff77;
+    padding: 2rem;
+    font-size: 1.4rem;
+   }
+  .noticebox .strong{line-height: 1.5;}
+
+  /* 체크박스 숨김 */
+  .accordion-toggle {
+    display: none;
+  }
+  
+  /* 펼쳐졌을 때 */
+  .accordion-toggle:checked + .accordion-header + .accordion-content {
+    max-height: 1000px;
+    padding: 20px 25px;
+  }
+  
+  /* 화살표 회전 */
+  .accordion-toggle:checked + .accordion-header .arrow {
+    transform: rotate(180deg);
+  }

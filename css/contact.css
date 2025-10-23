@@ -1,0 +1,68 @@
+body{
+    background: #FF6600;
+}
+.container{
+    padding-top: 14rem; 
+}
+
+.title{display: flex; gap: 3rem;}
+.title h3{
+    font-family: 'climate';
+    font-size: 10rem;
+    color: #dcff15;
+}
+.title p{
+ margin-top: 1.6rem;
+}
+@media screen and (max-width:1370px) {
+    .title{flex-direction: column; gap: 2rem;}    
+    .title p{  margin-top: 0;       }
+}
+
+
+.contact-card{
+    display: flex; gap:3rem;
+    margin-top: 10rem;
+}
+.contact-card li{width: 100%;}
+.contact-card li a{
+    height: 100%;
+    background: #fff;
+    border: 1px solid #333; border-bottom: none;
+    padding: 3.5rem;
+    border-radius: 2rem 2rem 0 0 ;
+    display: flex; flex-direction: column; justify-content: space-between; gap: 3rem;
+    font-family: 'climate';
+    position: relative;
+}
+.contact-card li a:hover{background: #fff067;}
+.contact-card li a::after{
+    content: "";
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 5rem;  /* 접힘 크기 */
+    height: 5rem;
+    background: linear-gradient(-135deg, #FF6600 50%, #333 50%);
+    border-bottom-left-radius: 1.5rem; /* 접힌 부분의 둥근 처리 */
+}
+
+li .cardNum{
+    font-weight: 800;
+}
+
+li h4{font-size: 3rem;}
+li .cardTitle{display: flex; justify-content: space-between; align-items: start;}
+li .cardIcon::after{
+    content: '\EA70'; font-family: 'remixicon'; font-size: 4rem;
+}
+li p{
+    margin-top: 2rem;
+    font-family: 'suit'; font-size: 1.4rem; line-height: 1.5;
+}
+footer .container2{
+    margin-top: 0;
+}
+@media screen and (max-width:780px) {
+    footer .container2{margin: 0 0 0 0; border-radius: 0rem; }
+}

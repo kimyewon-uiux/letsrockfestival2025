@@ -1,0 +1,110 @@
+body{
+    position: relative;
+    background: #4b93ff;
+}
+.header2 nav ul li a:hover{color: #ffbe0d;}
+.header2{
+    z-index: 4000;
+    background: #4b93ffe3;}
+.container{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.full-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    opacity: .1;
+    background: url(/img/lineup_bg.jpg) center/cover no-repeat;
+    z-index: -1; /* 내용 뒤로 보내기 */
+}
+
+/* 아티스트 목록 */
+section{
+    margin-top: 12rem;
+    font-family: 'climate';
+}
+section .title{
+    margin-bottom: 4rem;
+    font-family: 'climate'; font-size: 7rem;
+    color: #fff; 
+    -webkit-text-stroke: 1px #222;
+}
+.lineupList{display: flex; flex-direction: column; align-items: center;}
+.lineupList .datetitle{
+    display: flex; gap: 2rem; align-items: center; justify-content: center;
+    font-family: 'climate'; font-size: 3rem;
+}
+.lineupList .datetitle div{
+    padding: .5rem 1.4rem;
+    border: 1px solid #333;
+    border-radius: 5rem;
+}
+.lineup0906 .datetitle div{  background: #BDFAA1;}
+.lineup0907{margin-top: 5rem; text-align: center;}
+.lineup0907 .datetitle div{  background: #D28EFF;}
+
+.artistList *{
+    display: flex; align-items: center; justify-content: center;
+    
+}
+.artistList .line1{ font-size: 4.2rem;   gap: 3rem; margin-top: 3rem;}
+.artistList .line2{ font-size: 3rem;   gap: 2rem;margin-top: 2.4rem;}
+.artistList .line3{ font-size: 2.2rem;   gap: 1rem;margin-top: 2rem;}
+
+.artistList .dot1{width: 2rem;height: 2rem; background: #BDFAA1; border: 1px solid #333; border-radius: 50px;}
+.artistList .dot2{width: 1.5rem;height: 1.5rem; background: #BDFAA1; border: 1px solid #333; border-radius: 50px;}
+.artistList .dot3{width: 1rem;height: 1rem; background: #BDFAA1; border: 1px solid #333; border-radius: 50px;}
+
+.lineup0907 .dot{background: #D28EFF;}
+
+/* 아티스트 호버 이미지 */
+.lineupList .lineup0906 .arti:hover{color: #BDFAA1; cursor: pointer;}
+.lineupList .lineup0907 .arti:hover{color: #ec8eff; cursor: pointer;}
+.lineupList .arti{
+    position: relative;
+}
+.artistList .arti:hover::after{
+    z-index: 2000;
+    position: absolute; bottom: -31rem;
+    content: ''; border: 1px solid #333;border-radius: 100%;
+    width: 30rem; height: 30rem; overflow: hidden;
+}
+.lineup0906 .line1 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_jaulim.jpg) center / cover no-repeat;}
+.lineup0906 .line1 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_woodz.jpg) center / cover no-repeat;}
+.lineup0906 .line1 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_hahyunsang.webp) center / cover no-repeat;}
+.lineup0906 .line2 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_CryingNut.webp) center / cover no-repeat;}
+.lineup0906 .line2 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_nobrain.jpg) center / cover no-repeat;}
+.lineup0906 .line2 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_peppertones.jpg) center / cover no-repeat;}
+.lineup0906 .line3 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_Yangskinny.png) center / cover no-repeat;}
+.lineup0906 .line3 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_yookband.jpg) center / cover no-repeat;}
+.lineup0906 .line3 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_thefix.webp) center / cover no-repeat;}
+.lineup0906 .line4 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_dekadang.webp) center / cover no-repeat;}
+.lineup0906 .line4 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_ohah.webp) center / cover no-repeat;}
+
+.lineup0907 .line1 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_radwimps.webp) center / cover no-repeat;}
+.lineup0907 .line1 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_Guckkasten.webp) center / cover no-repeat;}
+.lineup0907 .line2 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_THORNAPPLE.webp) center / cover no-repeat;}
+.lineup0907 .line2 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_adoy.png) center / cover no-repeat;}
+.lineup0907 .line2 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_ThePoles.jpg) center / cover no-repeat;}
+.lineup0907 .line3 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_Bye\ Bye\ Badman.webp) center / cover no-repeat;}
+.lineup0907 .line3 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_dragonpony.webp) center / cover no-repeat;}
+.lineup0907 .line3 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_crack\ shot.webp) center / cover no-repeat;}
+.lineup0907 .line4 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_87dance.webp) center / cover no-repeat;}
+.lineup0907 .line4 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_omo.webp) center / cover no-repeat;}
+
+
+
+
+
+/* 타임테이블 */
+.timetable{
+    margin-top: 20rem;
+    width: 80%; height: 100%;
+    display: flex; flex-direction: column; 
+    align-items: center;justify-content: center;
+}
+.timetable .timetable-img img{width: 100%; height: 100%; margin-bottom: 12rem;}
+@media screen and (max-width:1300px) {
+    .timetable{width: 100%;}
+}
+

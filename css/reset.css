@@ -1,0 +1,47 @@
+@charset "utf-8";
+:root{
+    font-size: 10px;
+    --org-color: #FF5411;
+    padding: 0; margin: 0;
+    
+}
+button{font-family: 'suit','NexonCart', 'pretendard','Climate';}
+body{
+    font-family: 'NexonCart','suit','pretendard', 'Climate';
+    color: #222; font-size: 1.6rem;
+    text-decoration: none;
+    font-style: none;
+    display:block;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;padding: 0;
+    font-weight: inherit; color:inherit;
+    line-height: 1;
+    text-decoration: none;
+  
+}
+a {
+    display:block;
+    text-decoration: none;
+}
+ol, ul, li{
+    list-style: none;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+img, video, iframe{
+    display: block;
+}
+input, select, textarea{
+    outline: none; border: none;
+}
+table{
+    border-collapse: collapse;
+}
+.blind{display: none;}
