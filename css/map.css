@@ -56,10 +56,6 @@ padding: 20px 0;
 
 /* 오시는길 */
 
-.direction{
-    /* border: 1px solid #db2828; */
-}
-
 .part1{
     padding: 3rem;
     background: url(../img/direction_bg.png) center / 100% 100% no-repeat;
