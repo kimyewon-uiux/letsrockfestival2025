@@ -36,7 +36,7 @@ header{
 .ticketObj li{
     width: 30%; aspect-ratio: 440/644;
     padding: 4rem 3rem 5rem 3rem; display: flex; flex-direction: column; justify-content: space-between;
-    background: url(/img/ticket_bg.png) 0 0 / contain no-repeat;
+    background: url(../img/ticket_bg.png) 0 0 / contain no-repeat;
 }
 .card1 .cardDate div{ background: #FFC70F;}
 .card2 .cardDate div{ background: #65DF77;}
@@ -65,7 +65,7 @@ header{
 .bttm .barcode{
     margin-top: 1rem;
     width: 100%; aspect-ratio: 3/1;
-    background: url(/img/barcode.png) 0 0 / contain no-repeat;
+    background: url(../img/barcode.png) 0 0 / contain no-repeat;
 }
 
 .ticketPrice .ticketLink{

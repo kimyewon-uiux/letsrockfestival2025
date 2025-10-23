@@ -62,14 +62,14 @@ padding: 20px 0;
 
 .part1{
     padding: 3rem;
-    background: url(/img/direction_bg.png) center / 100% 100% no-repeat;
+    background: url(../img/direction_bg.png) center / 100% 100% no-repeat;
     display: flex; gap: 4rem;
     /* border: 1px solid #1d7fff; */
 }
 
 .mapImg{
     width: 50rem; aspect-ratio: 1/1;
-    background: url(/img/derectionmap.png) 0 0 / contain no-repeat;
+    background: url(../img/derectionmap.png) 0 0 / contain no-repeat;
 }
 
 .traffic .trafficTitle{
@@ -109,7 +109,7 @@ padding: 20px 0;
 .sticker{
     position: absolute; top: -8rem;left: -3rem;
     color: #111;
-    background: url(/img/sticker.png) 0 0 / cover no-repeat;
+    background: url(../img/sticker.png) 0 0 / cover no-repeat;
     width: 12rem; aspect-ratio: 1/1;
     font-size: 2.4rem; font-family: 'climate';
     display: flex;align-items: center;justify-content: center;
@@ -128,7 +128,7 @@ padding: 20px 0;
 /* 현장가이드 */
 .sitemap{
     width: 100%; height: 100%;
-    background: url(/img/direction_bg3.png) center / 100% 100% no-repeat;
+    background: url(../img/direction_bg3.png) center / 100% 100% no-repeat;
     padding: 4rem; padding-bottom: 6rem;
     margin-bottom: 4rem;
 }
@@ -155,34 +155,34 @@ padding: 20px 0;
 
 .sitemapTag .tag1{background: #FBCB32;}
 .sitemapTag .tag1::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag1.png) center/ 60% no-repeat ;}
+    background: url(../img/icon/tag1.png) center/ 60% no-repeat ;}
 .sitemapTag .tag2{background: #FD6C37;}
 .sitemapTag .tag2::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag2.png) center/ 50% no-repeat ;}
+    background: url(../img/icon/tag2.png) center/ 50% no-repeat ;}
 .sitemapTag .tag3{background: #6B2B15;}
 .sitemapTag .tag3::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag3.png) center/ 60% no-repeat ;}
+    background: url(../img/icon/tag3.png) center/ 60% no-repeat ;}
 .sitemapTag .tag4{background: #996DFF;}
 .sitemapTag .tag4::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag4.png) center/ 60% no-repeat ;}
+    background: url(../img/icon/tag4.png) center/ 60% no-repeat ;}
 .sitemapTag .tag5{background: #82DFE3;}
 .sitemapTag .tag5::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag5.png) center/ 50% no-repeat ;}
+    background: url(../img/icon/tag5.png) center/ 50% no-repeat ;}
 .sitemapTag .tag6{background: #1E32D7;}
 .sitemapTag .tag6::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag6.png) center/ 50% no-repeat ;}
+    background: url(../img/icon/tag6.png) center/ 50% no-repeat ;}
 .sitemapTag .tag7{background: #0A777C;}
 .sitemapTag .tag7::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag7.png) center/ 55% no-repeat ;}
+    background: url(../img/icon/tag7.png) center/ 55% no-repeat ;}
 .sitemapTag .tag8{background: #BDD5FF;}
 .sitemapTag .tag8::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag8.png) center/ 55% no-repeat ;}
+    background: url(../img/icon/tag8.png) center/ 55% no-repeat ;}
 .sitemapTag .tag9{background: #FF4081;}
 .sitemapTag .tag9::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag9.png) center/ 50% no-repeat ;}
+    background: url(../img/icon/tag9.png) center/ 50% no-repeat ;}
 .sitemapTag .tag10{background: #65DF77;}
 .sitemapTag .tag10::after{content: ''; position: absolute; top: 0;bottom: 0;left: 0;right: 0;
-    background: url(/img/icon/tag10.png) center/ 50% no-repeat ;}
+    background: url(../img/icon/tag10.png) center/ 50% no-repeat ;}
 
 
 
@@ -195,7 +195,7 @@ padding: 20px 0;
 
     .part1{
         flex-direction: column; padding-left: 4rem;
-        background: url(/img/direction_bg2.png) center / 100% 100% no-repeat;
+        background: url(../img/direction_bg2.png) center / 100% 100% no-repeat;
     }
     .mapImg{
         width: 100%;}

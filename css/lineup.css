@@ -14,7 +14,7 @@ body{
     width: 100%;
     min-height: 100%;
     opacity: .1;
-    background: url(/img/lineup_bg.jpg) center/cover no-repeat;
+    background: url(../img/lineup_bg.jpg) center/cover no-repeat;
     z-index: -1; /* 내용 뒤로 보내기 */
 }
 
@@ -69,28 +69,28 @@ section .title{
     content: ''; border: 1px solid #333;border-radius: 100%;
     width: 30rem; height: 30rem; overflow: hidden;
 }
-.lineup0906 .line1 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_jaulim.jpg) center / cover no-repeat;}
-.lineup0906 .line1 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_woodz.jpg) center / cover no-repeat;}
-.lineup0906 .line1 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_hahyunsang.webp) center / cover no-repeat;}
-.lineup0906 .line2 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_CryingNut.webp) center / cover no-repeat;}
-.lineup0906 .line2 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_nobrain.jpg) center / cover no-repeat;}
-.lineup0906 .line2 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_peppertones.jpg) center / cover no-repeat;}
-.lineup0906 .line3 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_Yangskinny.png) center / cover no-repeat;}
-.lineup0906 .line3 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_yookband.jpg) center / cover no-repeat;}
-.lineup0906 .line3 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_thefix.webp) center / cover no-repeat;}
-.lineup0906 .line4 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_dekadang.webp) center / cover no-repeat;}
-.lineup0906 .line4 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_ohah.webp) center / cover no-repeat;}
+.lineup0906 .line1 .arti:nth-child(1):hover::after{background:  url(../img/arti/lineup_jaulim.jpg) center / cover no-repeat;}
+.lineup0906 .line1 .arti:nth-child(3):hover::after{background:  url(../img/arti/lineup_woodz.jpg) center / cover no-repeat;}
+.lineup0906 .line1 .arti:nth-child(5):hover::after{background:  url(../img/arti/lineup_hahyunsang.webp) center / cover no-repeat;}
+.lineup0906 .line2 .arti:nth-child(1):hover::after{background:  url(../img/arti/lineup_CryingNut.webp) center / cover no-repeat;}
+.lineup0906 .line2 .arti:nth-child(3):hover::after{background:  url(../img/arti/lineup_nobrain.jpg) center / cover no-repeat;}
+.lineup0906 .line2 .arti:nth-child(5):hover::after{background:  url(../img/arti/lineup_peppertones.jpg) center / cover no-repeat;}
+.lineup0906 .line3 .arti:nth-child(1):hover::after{background:  url(../img/arti/lineup_Yangskinny.png) center / cover no-repeat;}
+.lineup0906 .line3 .arti:nth-child(3):hover::after{background:  url(../img/arti/lineup_yookband.jpg) center / cover no-repeat;}
+.lineup0906 .line3 .arti:nth-child(5):hover::after{background:  url(../img/arti/lineup_thefix.webp) center / cover no-repeat;}
+.lineup0906 .line4 .arti:nth-child(1):hover::after{background:  url(../img/arti/lineup_dekadang.webp) center / cover no-repeat;}
+.lineup0906 .line4 .arti:nth-child(3):hover::after{background:  url(../img/arti/lineup_ohah.webp) center / cover no-repeat;}
 
-.lineup0907 .line1 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_radwimps.webp) center / cover no-repeat;}
-.lineup0907 .line1 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_Guckkasten.webp) center / cover no-repeat;}
-.lineup0907 .line2 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_THORNAPPLE.webp) center / cover no-repeat;}
-.lineup0907 .line2 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_adoy.png) center / cover no-repeat;}
-.lineup0907 .line2 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_ThePoles.jpg) center / cover no-repeat;}
-.lineup0907 .line3 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_Bye\ Bye\ Badman.webp) center / cover no-repeat;}
-.lineup0907 .line3 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_dragonpony.webp) center / cover no-repeat;}
-.lineup0907 .line3 .arti:nth-child(5):hover::after{background:  url(/img/arti/lineup_crack\ shot.webp) center / cover no-repeat;}
-.lineup0907 .line4 .arti:nth-child(1):hover::after{background:  url(/img/arti/lineup_87dance.webp) center / cover no-repeat;}
-.lineup0907 .line4 .arti:nth-child(3):hover::after{background:  url(/img/arti/lineup_omo.webp) center / cover no-repeat;}
+.lineup0907 .line1 .arti:nth-child(1):hover::after{background:  url(../img/arti/lineup_radwimps.webp) center / cover no-repeat;}
+.lineup0907 .line1 .arti:nth-child(3):hover::after{background:  url(../img/arti/lineup_Guckkasten.webp) center / cover no-repeat;}
+.lineup0907 .line2 .arti:nth-child(1):hover::after{background:  url(../img/arti/lineup_THORNAPPLE.webp) center / cover no-repeat;}
+.lineup0907 .line2 .arti:nth-child(3):hover::after{background:  url(../img/arti/lineup_adoy.png) center / cover no-repeat;}
+.lineup0907 .line2 .arti:nth-child(5):hover::after{background:  url(../img/arti/lineup_ThePoles.jpg) center / cover no-repeat;}
+.lineup0907 .line3 .arti:nth-child(1):hover::after{background:  url(../img/arti/lineup_Bye\ Bye\ Badman.webp) center / cover no-repeat;}
+.lineup0907 .line3 .arti:nth-child(3):hover::after{background:  url(../img/arti/lineup_dragonpony.webp) center / cover no-repeat;}
+.lineup0907 .line3 .arti:nth-child(5):hover::after{background:  url(../img/arti/lineup_crack\ shot.webp) center / cover no-repeat;}
+.lineup0907 .line4 .arti:nth-child(1):hover::after{background:  url(../img/arti/lineup_87dance.webp) center / cover no-repeat;}
+.lineup0907 .line4 .arti:nth-child(3):hover::after{background:  url(../img/arti/lineup_omo.webp) center / cover no-repeat;}
 
 
 
